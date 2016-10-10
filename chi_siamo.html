@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+
+ <title> Chi siamo </title>
+ <link rel="stylesheet" type="text/css" href="stylesheet2.css">
+<script type="text/javascript">
+
+
+testofede="<span id='testoinserito'>Sono una persona curiosa ed intraprendente, sono affascinato dalla tecnologia <br> e amo mettermi in gioco in contesti differenti. Una qualit&agrave; che mi appartiene <br>&egrave; senza dubbio la versatilit&agrave;, sono sempre alla ricerca di nuovi stimoli e sfide.<br>Ascolto buona musica, mi piacciono le serie TV e andare al bar con gli amici.<br>Credo di poter portare nel mio gruppo creativit&agrave; e dinamicit&agrave;.</span>"
+
+testopie="<span id='testoinserito'>Profondamente innamorato della cultura hip hop, graffiti e rap sono le mie ragioni di vita. Mi diletto nella modellazione 3D ma in fin dei conti passo il tempo ad ammirare lavori altrui attraverso i videogiochi. Sono testardo, iperattivo e penso che dormire sia uno spreco di tempo. Dalla sperduta Valle d&rsquo;Aosta a Milano per trasformare una passione in un lavoro.</span>"
+	
+function fede() 
+
+       {document.getElementById('testo1').innerHTML=testofede;}
+
+
+       function pie() 
+
+      {document.getElementById('testo2').innerHTML=testopie;}	
+
+
+function pulisci1() { document.getElementById('testo1').innerHTML='Federico Panni';}
+function pulisci2() { document.getElementById('testo2').innerHTML='Pietro Perret';}
+function pulisci3() { document.getElementById('testo3').innerHTML='Noemi Gottardi';}
+function pulisci4() { document.getElementById('testo4').innerHTML='Marcello Maffi';}
+function pulisci5() { document.getElementById('testo5').innerHTML='Gabriele Wiedenmann';}
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+ </head>
+
+
+ <body>
+
+
+
+
+<head>
+ <link rel="stylesheet" type="text/css" href="stylesheet.css">
+ 	
+ </head>
+
+  
+
+   
+
+        <div id="nav_wrapper"><br>
+
+           <ul>
+           	
+           	  <li> <a href="navigation bar.html">Home</a></li>
+              <li> <a href="#">Prodotti</a></li>
+              <li> <a href="#">Work in progress</a></li>
+              <li> <a href="chi_siamo.html">Chi siamo</a></li>
+              <li> <a href="#">Contatti</a></li> 
+              
+
+
+
+             </ul>
+
+   
+
+
+         </div>
+ 	
+
+
+  <div id="titolo">
+  	
+  <H1>Componenti del gruppo</H1>
+  </div>
+ 	
+
+
+
+
+  
+    <div id="immagini">
+         <div id="par1"> 
+
+         <img src="fede.jpg" onmouseover="fede()" 
+        onmouseout="pulisci1()" >
+         <p id="testo1" span style="font-weight: bold;">Federico Panni</p>
+         </div>
+         
+         <div id="par2"> 
+         <img src="pietro.jpg" onmouseover="pie()" onmouseout="pulisci2()">
+         <p id="testo2"span style="font-weight: bold;"">Pietro Perret</p>
+         </div>
+
+         <div id="par3"> 
+         <img src="noce.jpg">
+         <p id="testo3"span style="font-weight: bold;"">Noemi Gottardi</p>
+         </div>
+
+         <div id="par4"> 
+         <img src="maffi.jpg">
+         <p id="testo5"span style="font-weight: bold;"">Marcello Maffi </p>
+         </div>
+
+         <div id="par4"> 
+         <img src="gabri.jpg">
+         <p id="testo6"span style="font-weight: bold;"">Gabriele Wiedenmann</p>
+         </div>
+
+    </div>
+
+    
+
+</body>
+
+
+ </html>
